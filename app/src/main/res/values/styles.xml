@@ -7,5 +7,17 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="AppADHTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/refresh_text_bg</item>-->
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:windowNoTitle">true</item>
 
+    </style>
+    <style name="Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/img_launch_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>
